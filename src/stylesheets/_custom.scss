@@ -1,8 +1,8 @@
 // THEME COLORS 
-$teal-dark:    #0d503c;
-$teal-light:  #20c997;
-$orange: #fd7e14;
-$footer: #151414;
+$teal-dark: #104050;
+$teal-light: #B4BEBF;
+$orange: #FBAB8D;
+$footer: #404241;
 
 $primary: $teal-dark;
 $secondary: $teal-light;
@@ -16,4 +16,4 @@ $accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w
 $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path fill-rule='evenodd' d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/>  <path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>");
 
 @import "bootstrap/scss/bootstrap.scss";
-@import "bootstrap-icons/font/bootstrap-icons.scss"
+@import "bootstrap-icons/font/bootstrap-icons.scss";

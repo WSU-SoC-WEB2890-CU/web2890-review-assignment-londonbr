@@ -39,7 +39,7 @@
   }
 
   &__name {
-    padding-top: 3rem;
+    padding-top: 5rem;
     margin-bottom: 1rem;
     text-align: center;
     font-weight: 500;
@@ -54,5 +54,14 @@
       padding-bottom: 2rem;
       text-transform: capitalize;
     }
+  }
+
+  &__alert{
+    margin-top: 4rem;
+    max-width: 40vw;
+    background-color: $teal-light;
+    border-color: $teal-dark;
+    color: white;
+    position: relative;
   }
 }
